@@ -126,6 +126,10 @@
             {
                 "id": "error",
                 "description": "Syntax error"
+            },
+            {
+                "id": "styled",
+                "description": "Styled markup"
             }
         ],
         "semanticTokenModifiers": [
@@ -147,10 +151,10 @@
                         "keyword.operator.typst",
                         "punctuation.definition.typst"
                     ],
-                    "strong": [
+                    "*.strong": [
                         "markup.bold.typst"
                     ],
-                    "emph": [
+                    "*.emph": [
                         "markup.italic.typst"
                     ],
                     "link": [
